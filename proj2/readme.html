@@ -1051,22 +1051,20 @@ MathJax.Hub.Config({
 </ul>
 </li>
 <li><a href="#_4">两种算法时间分析</a></li>
+<li><a href="#github">GITHUB项目地址</a></li>
 </ul>
 </div>
 <h3 id="_1"><a name="user-content-_1" href="#_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>问题</h3>
 <p>随机生成多于二十个点的有向图，使用递归和栈两种算法进行DFS并且比较两种算法的运行时间。</p>
 <h3 id="_2"><a name="user-content-_2" href="#_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>文件说明</h3>
 <blockquote>
-<p>Random.cc 生成最多不超过500个点的有向简单图（无自环无重边）。 <br />
-DFS_rec.cc 使用递归的方式遍历整个图。<br />
-DFS_stack.cc 使用栈的方式遍历整个图。<br />
-Graph.in 输入运行的点数和边数。<br />
-Graph.out 随机生成的图。<br />
-DFS_rec.out 递归DFS程序运行的时间。<br />
-DFS_stack.out 栈DFS程序运行的时间。<br />
+<p>Graph.in 输入运行的点数和边数。<br />
 random.exe 生成图的可执行文件。<br />
 DFS_rec.exe 递归DFS的可执行文件。<br />
-DFS_stack.cc 栈DFS的可执行文件。</p>
+DFS_stack.exe 栈DFS的可执行文件。<br />
+Graph.out 随机生成的图。<br />
+DFS_rec.out 递归DFS程序运行的时间。<br />
+DFS_stack.out 栈DFS程序运行的时间。</p>
 </blockquote>
 <h3 id="_3"><a name="user-content-_3" href="#_3" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>具体过程</h3>
 <h4 id="step-1"><a name="user-content-step-1" href="#step-1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Step 1</h4>
@@ -1085,4 +1083,6 @@ loadTime表示程序运行时间，输出到对应的输出文件中。</p>
 <h3 id="_4"><a name="user-content-_4" href="#_4" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>两种算法时间分析</h3>
 <p>生成了500个点，200000条边的无向图。<br />
 将程序运行10000次后发现<br />
-递归的运行时间为<code>15.911s</code>，栈的运行时间为<code>15.9035s</code>。时间相差不大，但栈能稍快些。</p></article></body></html>
+递归的运行时间为<code>15.911s</code>，栈的运行时间为<code>15.9035s</code>。时间相差不大，但栈能稍快些。</p>
+<h3 id="github"><a name="user-content-github" href="#github" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>GITHUB项目地址</h3>
+<p><a href="https://github.com/hotokokoa/Introduction-to-Algorithms/tree/master/proj2">https://github.com/hotokokoa/Introduction-to-Algorithms/tree/master/proj2</a></p></article></body></html>

@@ -1,15 +1,19 @@
-[TOC]
-
 ###问题
 随机生成多于二十个点的有向图，使用递归和栈两种算法进行DFS并且比较两种算法的运行时间。
 
 ###文件说明
 >Graph.in 输入运行的点数和边数。
+
 >random.exe 生成图的可执行文件。
+
 >DFS_rec.exe 递归DFS的可执行文件。
+
 >DFS_stack.exe 栈DFS的可执行文件。
+
 >Graph.out 随机生成的图。
+
 >DFS_rec.out 递归DFS程序运行的时间。
+
 >DFS_stack.out 栈DFS程序运行的时间。
 
 ###具体过程
@@ -36,4 +40,4 @@ loadTime表示程序运行时间，输出到对应的输出文件中。
 递归的运行时间为`15.911s`，栈的运行时间为`15.9035s`。时间相差不大，但栈能稍快些。
 
 ###GITHUB项目地址
-
+https://github.com/hotokokoa/Introduction-to-Algorithms/tree/master/proj2

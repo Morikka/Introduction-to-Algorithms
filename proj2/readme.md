@@ -10,12 +10,6 @@
 
 >DFS_stack.exe 栈DFS的可执行文件。
 
->Graph.out 随机生成的图。
-
->DFS_rec.out 递归DFS程序运行的时间。
-
->DFS_stack.out 栈DFS程序运行的时间。
-
 ###具体过程
 ####Step 1
 使用记事本打开`Graph.in`文件。
